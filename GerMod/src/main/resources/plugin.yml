@@ -1,0 +1,24 @@
+name: GerMod
+main: com.xnadevshop.GerMod.GerMod
+version: 1
+commands:
+   Ger:
+      description: Yep this is the Gerby command.
+      usage: /Ger
+      permission: GerMod.Ger
+      permission-message: You don't have Gerperator
+   gloc:
+      description: Get your location or target's location and distance!
+      usage: /gloc <target>
+      permission: GerMod.gloc
+      permission-message: You cannot invoke the gloc command
+   gline:
+      description: Draw a line!
+      usage: /gline <length>
+      permission: GerMod.gline
+      permission-message: You cannot invoke the gline command
+   jail:
+      description: Create a jail
+      usage: /jail [X] [Y] [Z]
+      permission: GerMod.jail
+      permission-message: You cannot invoke the jail command
