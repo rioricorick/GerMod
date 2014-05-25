@@ -156,6 +156,7 @@ public final class GerMod extends JavaPlugin {
     				while ((int)playerLocation.getX() != endX)
     				{
     					Block b = playerLocation.getBlock();
+    					// Germod
     					b.setType(Material.OBSIDIAN);
     					Location torchLocation = new Location(playerLocation.getWorld(),
     							(int)playerLocation.getX(),
